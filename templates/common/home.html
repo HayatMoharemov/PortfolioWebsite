@@ -1,0 +1,51 @@
+{% extends 'shared/base.html' %}
+{% block content %}
+    <section id="home">
+        <div class="welcome-text">
+            <h1> Hayat Moharemov </h1>
+            <p id="rotating-text"> Back End Developer </p>
+            <a href="#about" class="welcome-text-btn">Get to know me</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-me">
+            <h1>Hi there!</h1>
+            <p>
+                I'm Hayat — a Python developer based in Ruse, Bulgaria, passionate about building things that matter.
+                My journey into coding started out of curiosity in 2022.
+                That curiosity quickly grew into something more serious, which led me to join the Python Developer program at SoftUni.
+                Before that, I studied Business Management and International Economic Relations at Ruse University "Angel Kantchev" — a background that shapes how I think about problems beyond just the code.
+                When I'm not coding, you'll find me on a motorcycle.
+                Riding keeps me grounded and feeds the same drive for focus and precision that I bring to my work.
+                I'm fluent in Bulgarian, English and Turkish, with conversational knowledge of Russian and German — which makes collaborating in multicultural teams feel natural.
+                I'm currently looking for opportunities where I can grow as a developer and contribute to meaningful projects.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects">
+            <h1>What I have been busy with...</h1>
+            <p>
+                Every project here is a step in my learning journey — built with purpose, iterated with care, and always with something new to take away.
+            </p>
+            <hr>
+            <h2>GarageTool</h2>
+            <h3>Tech Stack</h3>
+            <img src="/static/images/python-logo.png" alt="" width="50" height="50">
+            <img src="/static/images/django.png" alt="" width="50" height="50">
+            <img src="/static/images/drf-logo.png" alt="" width="80" height="50">
+            <img src="/static/images/postgresql.png" alt="" width="50" height="50">
+            <img src="/static/images/ms-azure.png" alt="" width="50" height="50">
+            <img src="/static/images/html5.png" alt="" width="50" height="50">
+            <img src="/static/images/css3.png" alt="" width="50" height="50">
+            <p>
+               GarageTool connects car owners with registered auto services — allowing customers to find and contact nearby garages,
+                while services can respond with tailored quotes. Built with Django, it also includes vehicle service tracking,
+                employee management, and parts inventory.
+            </p>
+            <a href="https://garagetool-b5dkf0g9g6dfhgec.swedencentral-01.azurewebsites.net/" class="welcome-text-btn">GarageTool - Website</a>
+            <a href="https://github.com/HayatMoharemov/GarageTool" class="welcome-text-btn">GarageTool - GitHub Repository</a>
+            <hr>
+        </div>
+    </section>
+{% endblock %}

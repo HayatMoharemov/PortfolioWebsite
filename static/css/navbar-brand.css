@@ -1,0 +1,7 @@
+section {
+    scroll-margin-top: 480px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

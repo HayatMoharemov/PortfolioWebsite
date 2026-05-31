@@ -1,0 +1,55 @@
+.projects {
+    text-align: center;
+    margin-top: 600px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.projects h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.projects p {
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.projects-btn {
+    font-size: 48px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+.projects-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.projects h2 {
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 50px;
+}
+
+.projects h3 {
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.projects img {
+    margin-right: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 10px;
+}
