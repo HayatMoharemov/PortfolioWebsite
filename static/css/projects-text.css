@@ -30,7 +30,8 @@
 
 .projects-btn:hover {
     color: black;
-    text-decoration: none;
+    background: white;
+    transform: translateY(-4px);
 }
 
 .projects h2 {

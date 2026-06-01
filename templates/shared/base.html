@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="{% static 'css/projects-text.css' %}">
     <link rel="stylesheet" href="{% static 'css/certificates-text.css' %}">
     <link rel="stylesheet" href="{% static 'css/contacts-text-img.css' %}">
+    <link rel="stylesheet" href="{% static 'css/connecting-dots.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-     {% include 'shared/navbar.html' %}
+     <canvas id="particles"></canvas>
+    {% include 'shared/navbar.html' %}
 
-     {% block content %}
-     {% endblock %}
+    {% block content %}
+    {% endblock %}
 
-     {% include 'shared/footer.html' %}
-
+    {% include 'shared/footer.html' %}
     <script src="{% static 'scripts/welcomeTextRotation.js' %}" defer></script>
+    <script src="{% static 'scripts/connectingDots.js' %}" defer></script>
 </body>
 </html>
