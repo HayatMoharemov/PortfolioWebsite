@@ -1,7 +1,24 @@
-.welcome-text {
-    text-align: center;
-    margin-top: 400px;
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-text {
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -9,12 +26,14 @@
 .welcome-text h1 {
     font-size: 64px;
     font-weight: 400;
+    margin: 0;
 }
 
 #rotating-text {
     font-size: 32px;
-    transition: opacity 0.5s ease;
     font-weight: 320;
+    margin: 10px 0 0 0;
+    transition: opacity 0.5s ease;
 }
 
 .welcome-text-btn {
@@ -25,11 +44,12 @@
     border: 2px solid black;
     border-radius: 8px;
     padding: 12px 24px;
-    margin-right: 10px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
 }
 
 .welcome-text-btn:hover {
-    color: black;
-    background: white;
+    background: black;
+    color: white;
     transform: translateY(-4px);
 }

@@ -1,0 +1,46 @@
+.certificates {
+    text-align: center;
+    margin-top: 600px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.certificates h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.certificates h2 {
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 50px;
+}
+
+.certificates p {
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 80px;
+}
+
+.certificates-btn {
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 240px;
+}
+
+.certificates-btn:hover {
+    color: black;
+    background: white;
+    transform: translateY(-4px);
+}
