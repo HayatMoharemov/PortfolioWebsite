@@ -18,7 +18,6 @@ var canvasDots = function() {
         y: canvas.height / 2
     };
 
-    // Брой точки според площта на екрана
     var area = canvas.width * canvas.height;
 
     var dots = {
@@ -93,7 +92,6 @@ var canvasDots = function() {
         }
     };
 
-    // Създаваме точките САМО ВЕДНЪЖ
     for (let i = 0; i < dots.nb; i++) {
         dots.array.push(new Dot());
     }
